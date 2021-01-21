@@ -33,7 +33,7 @@ private Response response;
 		response = SerenityRest.given()
 				.contentType(ContentType.JSON)
 				.body(map).log().all().post();
-				;
+				
 		response.prettyPrint();
 	}
 	
