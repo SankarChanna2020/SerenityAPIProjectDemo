@@ -12,6 +12,7 @@ import steps.W2ApiStep;
 public class DeleteUserTest extends BaseTest{
 	
 	
+	//Delete req
 	@Steps 
 	W2ApiStep api;	
 	
